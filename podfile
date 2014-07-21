@@ -1,0 +1,72 @@
+platform :ios,'6.0'
+#toolkit
+dependency 'MBProgressHUD' # An activity indicator that can be added to your views.
+# dependency 'Nimbus' # A comprehensive toolkit of modules aimed at replacing Three20.
+dependency 'SSToolkit' # A collection of well-documented iOS classes for making life easier.
+
+#networking
+dependency 'AFNetworking' # Network connectivity and response handling.
+dependency 'Reachability' # Network access detection.
+# dependency 'ShareKit'
+
+#code helper
+# dependency 'BlocksKit'
+# dependency 'ConciseKit'
+
+# View
+dependency 'ViewDeck' # An implementation of the sliding functionality found in the Path 2.0 or Facebook iOS apps.
+# dependency 'GHSidebarNav' # like ViewDeck
+# dependency 'PSStackedView' # Open source implementation of Twitter/iPad stacked UI
+# dependency 'AwesomeMenu' # Path 2.0 menu using CoreAnimation :).
+# dependency 'CMPopTipView' # Custom UIView for iOS that pops up an animated "bubble" pointing at a button or other view. Useful for popup tips.
+# dependency 'MTStatusBarOverlay' #  A custom iOS status bar overlay seen in Apps like Reeder,Evernote and GoogleMobile App.
+# dependency 'JMTabView' # Stylish and animated tab view for iOS rendered entirely using core graphics.
+
+
+#table view
+# dependency 'QuickDialog'
+
+#plotting framework
+# dependency 'CorePlot' size too big
+
+#database
+# dependency 'FMDB' # A Cocoa / Objective-C wrapper around SQLite.
+# dependency 'MagicalRecord' # Super Awesome Easy Fetching for Core Data
+
+# Utility
+# dependency 'SSZipArchive'
+# dependency 'CHCSVParser'
+# dependency 'SSKeychain' # Simple Cocoa wrapper for the keychain that works on Mac and iOS.
+
+# Animation
+dependency 'FTUtils' # Phone utilities mostly for Core Animation.
+
+#Cache
+dependency 'SDWebImage'
+
+#Analytics
+dependency 'UMeng'
+dependency 'OpenUDID'
+# dependency 'FlurrySDK'
+
+#Text
+dependency 'TTTAttributedLabel' #A drop-in replacement for UILabel that supports attributes, data detectors,links, and more.
+
+#ADs
+# dependency 'Google-AdMob-Ads-SDK'
+
+#In APP Purchase
+dependency 'MKStoreKit'
+
+#Promote
+# dependency 'Appirater' #  A utility that reminds your iPhone app's users to review the app.
+
+#Test
+# dependency 'PonyDebugger'  # Remote network and data debugging for your native iOS app using Chrome Developer Tools.
+
+# dependency 'Specta'
+# dependency 'Expecta',     '~> 0.2.0'   # expecta matchers
+# dependency 'OCHamcrest',  '~> 1.7'     # hamcrest matchers
+# dependency 'OCMock',      '~> 2.0.1'   # OCMock
+# dependency 'LRMocky',     '~> 0.9.1'   # LRMocky
+# dependency 'Fingertips' # Touch indicators for iOS applications.
